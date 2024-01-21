@@ -6,7 +6,7 @@ import { Home } from "./pages/Home";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/todos-app/">
         <Toaster position="top-right" reverseOrder={false} />
         <Routes>
           <Route index element={<Home />} />

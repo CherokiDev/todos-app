@@ -48,7 +48,7 @@ export const TodoForm = ({
       <input
         className="mt-6 w-full rounded bg-indigo-600 py-3 text-white"
         type="submit"
-        value="Create"
+        value="Crear tarea"
         onClick={handleSubmit}
         disabled={title.length < 6}
         style={{
