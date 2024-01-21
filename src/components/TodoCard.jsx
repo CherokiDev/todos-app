@@ -5,12 +5,12 @@ export const TodoCard = ({ todo, handleDelete, index }) => {
     todo.priority === "low"
       ? "border-indigo-500"
       : todo.priority === "medium"
-      ? "border-orange-500"
+      ? "border-yellow-500"
       : "border-red-500";
 
   return (
     <div
-      className={`mx-auto w-full max-w-md rounded border ${color} px-3 py-4 flex justify-between items-center`}
+      className={`mx-auto w-full max-w-md rounded border-[10px] ${color} px-3 py-4 flex justify-between items-center`}
     >
       <p>{todo.title}</p>
       <button
