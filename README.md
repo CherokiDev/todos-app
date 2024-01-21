@@ -25,6 +25,9 @@ Lista de herramientas utilizadas en el proyecto:
 2. Instala las dependencias con `npm install`
 3. Ejecuta la aplicación con `npm start`
 
+## Deploy de la aplicación en Github Pages
+https://cherokidev.github.io/todos-app/
+
 ## Licencia
 
 MIT
